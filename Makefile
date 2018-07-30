@@ -6,7 +6,7 @@ Ext		:= .e
 WExt	:= .exe
 Source	:= $(Target).cpp
 CFlags	:= -std=c++11 -Wall -Werror
-Links	:= -static-libstdc++
+Links	:= -static-libgcc -static-libstdc++
 # Linux graphics libraries 
 GLinks	:= -lglut -lGL -lGLU
 CC		:= g++
